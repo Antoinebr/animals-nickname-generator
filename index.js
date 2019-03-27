@@ -21,7 +21,7 @@ while( nickNames.size < numOfNicknamesToBeGenerated){
 }
 
 
-for( const nickname of [...nickNames]){
+for( const nickname of nickNames){
 
     console.log(nickname);
 
